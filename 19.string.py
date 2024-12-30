@@ -58,4 +58,4 @@ print()
 
 print('-----Repetition operator *------')
 
-print('avenger'*5)
+print('avengers'*5)
