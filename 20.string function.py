@@ -29,3 +29,21 @@ print("stripped:",text.strip())
 print("left stripped:",text.lstrip())
 print("right stripped:",text.rstrip())
 
+#remove the leading characters "abc"from the string
+
+string="abchello, world!"
+stripped_string =string.lstrip("abc")
+print(stripped_string)
+
+#output: hello, world!
+
+
+string="abchello, world!"
+stripped_string =string.rstrip("ld!")
+print(stripped_string)
+
+#output: hello, wor
+
+print()
+
+print('-----starting and ending and replace string')
