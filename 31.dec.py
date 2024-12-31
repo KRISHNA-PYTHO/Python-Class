@@ -1,0 +1,1 @@
+print('----1. passing function as a paremeter-----')

@@ -61,3 +61,8 @@ print("First 5 characters:",text[:3])
 print("last 6 characters:",text[-3:-1])
 
 print()
+
+#count method
+print('----count method----')
+
+print('-----counting string----')
