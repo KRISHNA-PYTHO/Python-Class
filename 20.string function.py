@@ -46,4 +46,18 @@ print(stripped_string)
 
 print()
 
-print('-----starting and ending and replace string')
+print('-----starting and ending and replace string-------')
+
+text="Elsa is a good girl"
+print("start with 'Elsa': ",text.startswith("Elsa"))
+print("End with 'girl': ",text.endswith("girl"))
+print("replaced 'Elsa' with 'anna':",text.replace("Elsa","anna"))
+
+print()
+
+#string slicing
+print('----silcing of string-----')
+print("First 5 characters:",text[:3])
+print("last 6 characters:",text[-3:-1])
+
+print()
