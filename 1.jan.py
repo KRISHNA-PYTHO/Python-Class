@@ -21,3 +21,19 @@ def fibonacci(n):
 
 n=5
 print(f'fibannoci series of {n} is : {fibonacci(n)}')
+print()
+
+#========global function=========
+print('------global function-----')
+
+var=10
+
+def my_function():
+    #var=30
+    print("inside the function:",var)
+    #x=global()['var']
+    #print(x)
+
+my_function()
+
+print("outside the function: ",var)
